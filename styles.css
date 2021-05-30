@@ -1,0 +1,35 @@
+/* General styles */
+body {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Weekday styles */
+i:hover {
+    padding: .05em;
+    transition: all .5s ease-in-out;
+    transform: scale(1.2);
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+}
+
+#pirmadienis, #antradienis, #treciadienis, #ketvirtadienis, #penktadienis {
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+    margin-bottom: 0.5rem;
+    display: none;
+    transition: linear 2s;
+}
+
+
